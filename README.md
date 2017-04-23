@@ -1,10 +1,10 @@
 # Automation Test Example
 
-This is one Automation test example using Selenium for Java and  Cucumber. 
+This is one Automation test example using Selenium for Java and Cucumber.
 
 Using the page object model we can make non-brittle test code and reduce or eliminate duplicate test code
 
-How to testing on differnt web browser, for example: 
+_How to testing on different web browser, for example: _
    > change WebBrowserTypes.Firefox to Chrome (WebDriverFactory.java)
    
    
