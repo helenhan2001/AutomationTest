@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?><testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="4" time="26.714246">
+<testcase classname="QA Technical Test for LEAP" name="login website with valid user" time="7.493121">
+<system-out><![CDATA[Given Open web browser and start with url "http://cafetownsend-angular-rails.herokuapp.com/login".passed
+When I login with my valid username with password...........................passed
+Then the vaild user login successfully......................................passed
+]]></system-out>
+</testcase>
+<testcase classname="QA Technical Test for LEAP" name="login website with invaild user" time="1.70932">
+<system-out><![CDATA[Given Open web browser and start with url "http://cafetownsend-angular-rails.herokuapp.com/login".passed
+When I login with my invalid username with password.........................passed
+Then the invaild user can not login successfully............................passed
+]]></system-out>
+</testcase>
+<testcase classname="QA Technical Test for LEAP" name="Create Employee" time="6.22056">
+<system-out><![CDATA[Given Open web browser and start with url "http://cafetownsend-angular-rails.herokuapp.com/login".passed
+When I login with my valid username with password...........................passed
+Then the vaild user login successfully......................................passed
+And Create createEmployee successfully......................................passed
+And I fill in blank data I can see the tip message..........................passed
+]]></system-out>
+</testcase>
+<testcase classname="QA Technical Test for LEAP" name="Edit Employee and delete Employee" time="11.291245">
+<system-out><![CDATA[Given Open web browser and start with url "http://cafetownsend-angular-rails.herokuapp.com/login".passed
+When I login with my valid username with password...........................passed
+Then I select one user and click the Edit Btn to Edit User..................passed
+And I select one user and delete the user when edit.........................passed
+And I select the test user and click to delete the user.....................passed
+]]></system-out>
+</testcase>
+</testsuite>
